@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="defect_link" label="Defect Link" language="en" table="x_snc_ihub_content_defects">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>defect_link</element>
+            <help/>
+            <hint/>
+            <label>Defect Link</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_defects</name>
+            <plural>Defect Links</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-24 17:24:38</sys_created_on>
+            <sys_id>0f3271d8db2b33009bbb7b931f9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Defect Link</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_defects_defect_link_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-24 17:24:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

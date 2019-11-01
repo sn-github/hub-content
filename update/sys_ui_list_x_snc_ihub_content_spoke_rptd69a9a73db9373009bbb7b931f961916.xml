@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ihub_content_spoke" version="2" view="RPTd69a9a73db9373009bbb7b931f961916">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>spoke</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>25257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>test_case_design</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>a5257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number_of_tcs</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>29257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>functional_testing</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>a9257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>true_up_testing</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>2d257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number_of_tcs_automated</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>ad257ef7dbd373009bbb7b931f9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>percentage_complete</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>21257ef7dbd373009bbb7b931f9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cert_simulation</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="b4b54da61bf000108fa0dd7cbc4bcbb3">69257ef7dbd373009bbb7b931f9619a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_id>a1257ef7dbd373009bbb7b931f9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_ihub_content_spoke</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 09:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69257ef7dbd373009bbb7b931f9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ihub_content_spoke</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_ihub_content_spoke_RPTd69a9a73db9373009bbb7b931f961916</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 09:00:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptd69a9a73db9373009bbb7b931f961916" name="RPTd69a9a73db9373009bbb7b931f961916">b4b54da61bf000108fa0dd7cbc4bcbb3</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

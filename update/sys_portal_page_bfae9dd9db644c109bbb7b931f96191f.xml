@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-11-01 17:21:02">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-10-16 11:35:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfae9dd9db644c109bbb7b931f96191f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PA Summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_portal_page_bfae9dd9db644c109bbb7b931f96191f</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-10-17 02:11:32</sys_updated_on>
+        <title>PA Summary</title>
+        <user/>
+        <view>pa_ihub_content_qe_dash_-_new_tab_3</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>Testing In-Progress</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                <sys_id>180fdd1ddb644c109bbb7b931f96191f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>180fdd1ddb644c109bbb7b931f961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>540fdd1ddb644c109bbb7b931f961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>900fdd1ddb644c109bbb7b931f961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>980fdd1ddb644c109bbb7b931f96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>c44ec59ddb244c109bbb7b931f9619c6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>9c0fdd1ddb644c109bbb7b931f961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>Testing In-Progress</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>d00fdd1ddb644c109bbb7b931f961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>d80fdd1ddb644c109bbb7b931f961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-16 04:37:20">180fdd1ddb644c109bbb7b931f96191f</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:37:20</sys_created_on>
+                        <sys_id>dc0fdd1ddb644c109bbb7b931f96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:37:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>Release by Year</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                <sys_id>1993ac8edbe80050472ef8231f96190a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>1d93e0cedbe80050472ef8231f96194a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>5993e0cedbe80050472ef8231f96194a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>9193e0cedbe80050472ef8231f96194b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>Release by Year</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>9593e0cedbe80050472ef8231f96194a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>9993ac8edbe80050472ef8231f96190a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>b883ac8edbe80050472ef8231f961903</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>d593e0cedbe80050472ef8231f96194b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>dd93ac8edbe80050472ef8231f96190a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-18 08:13:09">1993ac8edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:13:09</sys_created_on>
+                        <sys_id>dd93e0cedbe80050472ef8231f96194a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:13:09</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>Automation In-Progress (All)</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                <sys_id>3962e9dddb644c109bbb7b931f961980</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>3962e9dddb644c109bbb7b931f961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>7562e9dddb644c109bbb7b931f961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>b162e9dddb644c109bbb7b931f961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>b962e9dddb644c109bbb7b931f961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>3d52e9dddb644c109bbb7b931f961926</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>bd62e9dddb644c109bbb7b931f961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>Automation In-Progress (All)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>f162e9dddb644c109bbb7b931f961982</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>f962e9dddb644c109bbb7b931f961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-16 04:52:11">3962e9dddb644c109bbb7b931f961980</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:52:11</sys_created_on>
+                        <sys_id>fd62e9dddb644c109bbb7b931f961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:52:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>Certified</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                <sys_id>6b216c0edbe80050472ef8231f96190a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>33216c0edbe80050472ef8231f96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>3f216c0edbe80050472ef8231f96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>Certified</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>63216c0edbe80050472ef8231f96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>4401a80edbe80050472ef8231f96196a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>7b216c0edbe80050472ef8231f96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>7f216c0edbe80050472ef8231f96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>b7216c0edbe80050472ef8231f96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>f3216c0edbe80050472ef8231f96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-18 08:02:40">6b216c0edbe80050472ef8231f96190a</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-18 15:02:40</sys_created_on>
+                        <sys_id>f7216c0edbe80050472ef8231f96190d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-18 15:02:40</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>True-up</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                <sys_id>ac40374adba000509bbb7b931f9619a2</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>2840374adba000509bbb7b931f9619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>2c40374adba000509bbb7b931f9619a5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>6040374adba000509bbb7b931f9619a5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>True-up</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>6440374adba000509bbb7b931f9619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>a040374adba000509bbb7b931f9619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>a440374adba000509bbb7b931f9619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>fd30774adba000509bbb7b931f961914</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>ac40374adba000509bbb7b931f9619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-18 23:07:24">ac40374adba000509bbb7b931f9619a2</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-19 06:07:24</sys_created_on>
+                        <sys_id>e840374adba000509bbb7b931f9619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-19 06:07:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Summary">bfae9dd9db644c109bbb7b931f96191f</page>
+                <summary>Automation Backlog</summary>
+                <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                <sys_id>f143a911dba44c109bbb7b931f961914</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>3143a911dba44c109bbb7b931f961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>7543a911dba44c109bbb7b931f961914</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>7533e511dba44c109bbb7b931f961933</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>7943a911dba44c109bbb7b931f961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>Automation Backlog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>7d43a911dba44c109bbb7b931f961914</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>b543a911dba44c109bbb7b931f961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>b943a911dba44c109bbb7b931f961914</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>bd43a911dba44c109bbb7b931f961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-10-16 04:56:00">f143a911dba44c109bbb7b931f961914</portal_section>
+                        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+                        <sys_created_on>2019-10-16 11:56:00</sys_created_on>
+                        <sys_id>f143a911dba44c109bbb7b931f961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+                        <sys_updated_on>2019-10-16 11:56:00</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

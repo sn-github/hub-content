@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="certified" label="Certified" language="en" table="x_snc_ihub_content_spoke">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>certified</element>
+            <help/>
+            <hint/>
+            <label>Certified</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <plural>Certified</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 13:45:34</sys_created_on>
+            <sys_id>9a8fcccadba80050472ef8231f9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Certified</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_spoke_certified_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 13:45:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

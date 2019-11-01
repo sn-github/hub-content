@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Check List" section_id="dc04efcedb6000509bbb7b931f961929" sys_domain="global" table="x_snc_ihub_content_recertify" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>qe_validation</element>
+            <position>0</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:52</sys_created_on>
+            <sys_id>5c04efcedb6000509bbb7b931f96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Check List" display_value="Check List" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">dc04efcedb6000509bbb7b931f961929</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cert_simulation</element>
+            <position>1</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:52</sys_created_on>
+            <sys_id>dc04efcedb6000509bbb7b931f96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Check List" display_value="Check List" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">dc04efcedb6000509bbb7b931f961929</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certified</element>
+            <position>2</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:52</sys_created_on>
+            <sys_id>5004efcedb6000509bbb7b931f96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Check List" display_value="Check List" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">dc04efcedb6000509bbb7b931f961929</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:52</sys_created_on>
+            <sys_id>d004efcedb6000509bbb7b931f96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Check List" display_value="Check List" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">dc04efcedb6000509bbb7b931f961929</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Check List</caption>
+            <header>false</header>
+            <name>x_snc_ihub_content_recertify</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc04efcedb6000509bbb7b931f961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Check List</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_ui_section_dc04efcedb6000509bbb7b931f961929</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

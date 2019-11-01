@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="spoke" max_length="40" name="x_snc_ihub_content_spoke" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Automated By" max_length="32" name="automated_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Automation" mandatory="true" max_length="40" name="automation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive="true" inactive_on_update="true" label="Not Yet Started" sequence="0" value="not_yet_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Certified" max_length="40" name="certified" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Deploy to Demo Stable" max_length="40" name="deploy_to_demo_stable" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Dev Owner" max_length="32" name="dev_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test execution" max_length="40" name="functional_testing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Blocked" sequence="2" value="blocked"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+            </choice>
+        </element>
+        <element label="Link" max_length="1024" name="link" type="url"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of actions" max_length="40" name="number_of_actions" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of actions tested" max_length="40" name="number_of_action_tested" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Tcs" max_length="40" name="number_of_tcs" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Tcs automated" max_length="40" name="number_of_tcs_automated" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Tcs can be automated" max_length="40" name="number_of_tcs_can_be_automated" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="QE Owner" max_length="50" name="owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#9;var canAutomate=current.number_of_tcs_can_be_automated;&#10;&#9;var automated=current.number_of_tcs_automated;&#10;&#9;var result=(automated/canAutomate)*100;&#10;&#9;// Add your code here&#10;&#9;return result;  // return the calculated value&#10;})(current);" label="Automation Percentage" max_length="15" name="percentage_complete" read_only="true" type="percent_complete" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Release Month" max_length="40" name="release_month" type="month_of_year"/>
+        <element label="Release Version" max_length="40" name="release_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Release Year" max_length="40" name="release_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2018" sequence="0" value="2018"/>
+                <element inactive_on_update="false" label="2019" sequence="1" value="2019"/>
+                <element inactive_on_update="false" label="2020" sequence="2" value="2020"/>
+                <element inactive_on_update="false" label="2021" sequence="3" value="2021"/>
+                <element inactive_on_update="false" label="2022" sequence="4" value="2022"/>
+                <element inactive_on_update="false" label="2023" sequence="5" value="2023"/>
+                <element inactive_on_update="false" label="2024" sequence="6" value="2024"/>
+                <element inactive_on_update="false" label="2025" sequence="7" value="2025"/>
+                <element inactive_on_update="false" label="2026" sequence="8" value="2026"/>
+                <element inactive_on_update="false" label="2027" sequence="9" value="2027"/>
+                <element inactive_on_update="false" label="2028" sequence="10" value="2028"/>
+                <element inactive_on_update="false" label="2029" sequence="11" value="2029"/>
+                <element inactive_on_update="false" label="2030" sequence="12" value="2030"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Spec Review" max_length="40" name="spec_review" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Spoke" max_length="1000" name="spoke" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test case Design" mandatory="true" max_length="40" name="test_case_design" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#9;var number_of_actions=current.number_of_actions;&#10;&#9;var number_of_action_tested=current.number_of_action_tested;&#10;&#9;var result=(number_of_action_tested/number_of_actions)*100;&#10;&#10;&#9;// Add your code here&#10;&#9;return result;  // return the calculated value&#10;&#10;})(current);" label="Test execution Percentage" max_length="15" name="test_execution_percentage" read_only="true" type="percent_complete" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="True Up Testing" max_length="40" name="true_up_testing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="automated_by"/>
+        </index>
+        <index name="index3">
+            <element name="dev_owner"/>
+        </index>
+    </element>
+</database>

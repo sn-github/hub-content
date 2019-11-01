@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="defects" max_length="40" name="x_snc_ihub_content_defects" type="collection">
+        <element label="Defect" max_length="40" name="defect" type="string"/>
+        <element label="Defect Link" max_length="40" name="defect_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Defects" max_length="40" name="number_of_defects" type="integer"/>
+        <element label="Priority" max_length="40" name="priority" type="string"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Spoke" max_length="32" name="spoke" reference="x_snc_ihub_content_spoke" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <index name="index">
+            <element name="spoke"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-23 03:39:25</sys_created_on>
+        <sys_id>d1cbadf7dbdf33009bbb7b931f9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_ihub_content_target.x_snc_ihub_content.content</sys_name>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_security_acl display_value="x_snc_ihub_content_target">d9cbadf7dbdf33009bbb7b931f96199e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d1cbadf7dbdf33009bbb7b931f9619a1</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-23 03:39:25</sys_updated_on>
+        <sys_user_role display_value="x_snc_ihub_content.content" name="x_snc_ihub_content.content">400b69b7dbdf33009bbb7b931f961983</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

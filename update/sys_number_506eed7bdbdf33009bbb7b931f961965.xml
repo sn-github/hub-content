@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_ihub_content_activity">x_snc_ihub_content_activity</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ACT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-23 03:50:50</sys_created_on>
+        <sys_id>506eed7bdbdf33009bbb7b931f961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACT</sys_name>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_number_506eed7bdbdf33009bbb7b931f961965</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-23 03:50:50</sys_updated_on>
+    </sys_number>
+</record_update>

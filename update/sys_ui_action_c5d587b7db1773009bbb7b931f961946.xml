@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Retrieve Defects</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var request = new sn_ws.RESTMessageV2();
+var dev_owner = current.dev_owner.user_name;
+if (dev_owner == 'ecs') {
+    var _user = 'bhargava.swayampakula';
+    var _pwd = 'Admin@123';
+    var _product_category = current.spoke;
+    request.setEndpoint('https://vservicesipaas.service-now.com/api/now/v1/table/rm_defect');
+    request.setHttpMethod('GET');
+    request.setQueryParameter("sysparm_query", "short_descriptionLIKE" + _product_category);
+    request.setBasicAuth(_user, _pwd);
+    request.setRequestHeader("Accept", "application/json");
+    var _response = request.execute();
+    var _json = JSON.parse(_response.getBody());
+    for (var j = 0; j < _json.result.length; j++) {
+        var _gr = new GlideRecord('x_snc_ihub_content_defects');
+        _gr.initialize();
+        _gr.setValue('defect', _json.result[j].number);
+        _gr.setValue('priority', _json.result[j].priority);
+        _gr.setValue('spoke', current.sys_id);
+        _gr.setValue('short_description', _json.result[j].short_description);
+        _gr.setValue('defect_link', 'https://vservicesipaas.service-now.com/rm_defect.do?sys_id=' + _json.result[j].sys_id);
+        _gr.insert();
+    }
+} else {
+    var user = 'bhargav.swayampakula';
+    var password = 'Augsept@2019';
+    var product_category = current.spoke;
+    request.setEndpoint('https://buildtools1.service-now.com/api/now/v1/table/x_snc_defect_defect');
+    request.setHttpMethod('GET');
+    request.setQueryParameter("u_product_category", product_category);
+    request.setBasicAuth(user, password);
+    request.setRequestHeader("Accept", "application/json");
+    var response = request.execute();
+    var json = JSON.parse(response.getBody());
+    for (var i = 0; i < json.result.length; i++) {
+        var gr = new GlideRecord('x_snc_ihub_content_defects');
+        gr.initialize();
+        gr.setValue('defect', json.result[i].number);
+        gr.setValue('priority', json.result[i].priority);
+        gr.setValue('spoke', current.sys_id);
+        gr.setValue('short_description', json.result[i].short_description);
+        gr.setValue('defect_link', 'https://buildtools1.service-now.com/x_snc_defect_defect.do?sys_id=' + json.result[i].sys_id);
+        gr.insert();
+    }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-23 10:20:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5d587b7db1773009bbb7b931f961946</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Retrieve Defects</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_ui_action_c5d587b7db1773009bbb7b931f961946</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-24 17:45:31</sys_updated_on>
+        <table>x_snc_ihub_content_spoke</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

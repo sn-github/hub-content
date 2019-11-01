@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>3099fb09db273300472ef8231f9619cb</copied_from>
+        <copied_from_name>Event Notification</copied_from_name>
+        <description/>
+        <internal_name>ihub_qe_comp_anniversary_notification</internal_name>
+        <label_cache>[{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date","label":"2➛team events Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_ihub_content_team_events","column_name":"joining_date"},{"name":"6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years","label":"2.1➛years","reference_display":"years","type":"string","base_type":"string"},{"name":"6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status","label":"2.1➛status","reference_display":"status","type":"boolean","base_type":"boolean"},{"name":"fc97cba8-78ea-4229-a475-0bfda4a90ef1.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item.team.manager.email","label":"2➛team events Record➛Team➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"5f12e62a-32dc-4f42-a4b4-abc390f53abb.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Table","label":"2➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Records","label":"2➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7037c81e-7de0-4aa3-ae7f-50f2d45e295b.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.birthday","label":"2➛team events Record➛Birthday","reference":"","reference_display":"Birthday","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_ihub_content_team_events","column_name":"birthday"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Records","label":"1➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Record.team_member.email","label":"1➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"4cd7f3cc-c3dc-4218-a350-0034df0e4549.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Record","label":"1➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.team.manager.email","label":"2➛team events Record➛Team➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Records","label":"1➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"e8556158-b17e-4f77-bbe7-664ba65de894.variable","label":"2.1➛variable","reference_display":"variable","type":"boolean","base_type":"boolean"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.birthday","label":"2➛team events Record➛Birthday","reference":"","reference_display":"Birthday","type":"string","base_type":"string","parent_table_name":"x_snc_ihub_content_team_events","column_name":"birthday"},{"name":"adf534c3-781d-4f62-acd3-d96dd918e9e2.email","label":"2.1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email","label":"2➛team events Record➛Team➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team","label":"2➛team events Record➛Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_ihub_content_team_events","column_name":"team"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name","label":"2➛team events Record➛Team member➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"8b4a6c3a-d5c4-4abd-89cb-2d639230f798.variable","label":"2.1➛variable","reference_display":"variable","type":"boolean","base_type":"boolean"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.anniversary","label":"2➛team events Record➛Anniversary","reference":"","reference_display":"Anniversary","type":"string","base_type":"string","parent_table_name":"x_snc_ihub_content_team_events","column_name":"anniversary"},{"name":"d88848bc-c93c-4a76-9a63-23baeffa4f0b.email","label":"2.1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"0442cec2-e6e5-4036-8bda-136a5338bfbc.email","label":"2.2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name","label":"2➛team events Record➛Team member➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <latest_snapshot>0803f5eadbbf33009bbb7b931f961925</latest_snapshot>
+        <master_snapshot>0099e5eedbe733009bbb7b931f9619af</master_snapshot>
+        <name>Ihub QE Comp Anniversary Notification</name>
+        <outputs/>
+        <remote_trigger_id>5099e5eedbe733009bbb7b931f9619e6</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d059e1eedbe733009bbb7b931f961950</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Ihub QE Comp Anniversary Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_hub_flow_d059e1eedbe733009bbb7b931f961950</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d059e1eedbe733009bbb7b931f961950"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d059e1eedbe733009bbb7b931f961950"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2019-08-31 11:55:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5099e5eedbe733009bbb7b931f9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Trigger:5099e5eedbe733009bbb7b931f9619e6</name>
+        <run_as display_value="">bhargav.swayampakula@snc</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2019-08-31 11:55:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('5099e5eedbe733009bbb7b931f9619e6');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1499e5eedbe733009bbb7b931f9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <trigger display_value="">5099e5eedbe733009bbb7b931f9619e6</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d059e1eedbe733009bbb7b931f961950^sys_idNOT IN1459e1eedbe733009bbb7b931f96195f,2459e1eedbe733009bbb7b931f961982,6859e1eedbe733009bbb7b931f961985,9459e1eedbe733009bbb7b931f96195c,9c59e1eedbe733009bbb7b931f961963"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b20e8bd5dbef3300472ef8231f9619fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>1459e1eedbe733009bbb7b931f96195f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1459e1eedbe733009bbb7b931f96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1459e1eedbe733009bbb7b931f96195f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>d059e1eedbe733009bbb7b931f961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>{{02617821-aed4-44d4-a82f-026419c12019.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="isCompAnnualDay">48407829dbe333009bbb7b931f9619aa</action_type>
+        <action_type_parent display_value="isCompAnnualDay">86bb2825dbe333009bbb7b931f9619de</action_type_parent>
+        <comment>check if today is company anniversary day</comment>
+        <compiled_snapshot>48407829dbe333009bbb7b931f9619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>2.1</order>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>2459e1eedbe733009bbb7b931f961982</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2459e1eedbe733009bbb7b931f961982"/>
+    <sys_element_mapping action="delete_multiple" query="id=2459e1eedbe733009bbb7b931f961982"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dateinput</field>
+        <id>2459e1eedbe733009bbb7b931f961982</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6059e1eedbe733009bbb7b931f961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48407829dbe333009bbb7b931f9619aa</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>87a87db7-5676-4764-9229-418e9a15027c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6859e1eedbe733009bbb7b931f961985</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>0442cec2-e6e5-4036-8bda-136a5338bfbc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6859e1eedbe733009bbb7b931f961985"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6859e1eedbe733009bbb7b931f961985</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>ec59e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6859e1eedbe733009bbb7b931f961985</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-09-10 09:09:43</sys_created_on>
+        <sys_id>faf36b25dbf333009bbb7b931f9619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:22</sys_updated_on>
+        <value/>
+        <variable display_value="">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6859e1eedbe733009bbb7b931f961985"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>e459e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Hearty Congratulations&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;2➛team events Record➛Team member➛Name&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;on completing&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;2.5➛years&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;year(s) in ServiceNow. &lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Best wishes for the future.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;Regards,&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;IDC Platform QE Team&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6c59e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>a859e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Congratulations {{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>2459e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dfc230e9dbe333009bbb7b931f9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>9459e1eedbe733009bbb7b931f96195c</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <ui_id>87a87db7-5676-4764-9229-418e9a15027c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9459e1eedbe733009bbb7b931f96195c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9459e1eedbe733009bbb7b931f96195c</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>1859e1eedbe733009bbb7b931f96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status}}=true</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>9c59e1eedbe733009bbb7b931f961963</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>02617821-aed4-44d4-a82f-026419c12019</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c59e1eedbe733009bbb7b931f961963"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c59e1eedbe733009bbb7b931f961963</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>5459e1eedbe733009bbb7b931f961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>x_snc_ihub_content_team_events</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d059e1eedbe733009bbb7b931f961950^sys_idNOT INe059e1eedbe733009bbb7b931f961988"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>e059e1eedbe733009bbb7b931f961988</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e059e1eedbe733009bbb7b931f961988"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e059e1eedbe733009bbb7b931f961988</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6859e1eedbe733009bbb7b931f961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <value>2019-08-31 17:25:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d059e1eedbe733009bbb7b931f961950^sys_idNOT IN1859e1eedbe733009bbb7b931f961951"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d059e1eedbe733009bbb7b931f961950</id>
+        <name>Ihub QE Comp Anniversary Notification</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>1859e1eedbe733009bbb7b931f961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d059e1eedbe733009bbb7b931f961950^sys_idNOT IN2459e1eedbe733009bbb7b931f961982,6859e1eedbe733009bbb7b931f961985,9c59e1eedbe733009bbb7b931f961963"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="isCompAnnualDay">48407829dbe333009bbb7b931f9619aa</action_type>
+        <action_type_parent display_value="isCompAnnualDay">86bb2825dbe333009bbb7b931f9619de</action_type_parent>
+        <comment>check if today is company anniversary day</comment>
+        <compiled_snapshot>48407829dbe333009bbb7b931f9619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>2.1</order>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>2459e1eedbe733009bbb7b931f961982</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2459e1eedbe733009bbb7b931f961982"/>
+    <sys_element_mapping action="delete_multiple" query="id=2459e1eedbe733009bbb7b931f961982"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dateinput</field>
+        <id>2459e1eedbe733009bbb7b931f961982</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6059e1eedbe733009bbb7b931f961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48407829dbe333009bbb7b931f9619aa</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>87a87db7-5676-4764-9229-418e9a15027c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6859e1eedbe733009bbb7b931f961985</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>0442cec2-e6e5-4036-8bda-136a5338bfbc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6859e1eedbe733009bbb7b931f961985"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6859e1eedbe733009bbb7b931f961985</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>ec59e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6859e1eedbe733009bbb7b931f961985</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-09-10 09:09:43</sys_created_on>
+        <sys_id>faf36b25dbf333009bbb7b931f9619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:22</sys_updated_on>
+        <value/>
+        <variable display_value="">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6859e1eedbe733009bbb7b931f961985"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>e459e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Hearty Congratulations&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;2➛team events Record➛Team member➛Name&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;on completing&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;2.5➛years&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;year(s) in ServiceNow. &lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Best wishes for the future.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;Regards,&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;IDC Platform QE Team&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>6c59e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>a859e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Congratulations {{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>6859e1eedbe733009bbb7b931f961985</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:02</sys_created_on>
+        <sys_id>2459e1eedbe733009bbb7b931f961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>9c59e1eedbe733009bbb7b931f961963</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-13 03:30:03</sys_updated_on>
+        <ui_id>02617821-aed4-44d4-a82f-026419c12019</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c59e1eedbe733009bbb7b931f961963"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c59e1eedbe733009bbb7b931f961963</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>5459e1eedbe733009bbb7b931f961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>x_snc_ihub_content_team_events</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d059e1eedbe733009bbb7b931f961950^sys_idNOT IN1459e1eedbe733009bbb7b931f96195f,9459e1eedbe733009bbb7b931f96195c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b20e8bd5dbef3300472ef8231f9619fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>1459e1eedbe733009bbb7b931f96195f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1459e1eedbe733009bbb7b931f96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1459e1eedbe733009bbb7b931f96195f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>d059e1eedbe733009bbb7b931f961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>{{02617821-aed4-44d4-a82f-026419c12019.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dfc230e9dbe333009bbb7b931f9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>9459e1eedbe733009bbb7b931f96195c</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <ui_id>87a87db7-5676-4764-9229-418e9a15027c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9459e1eedbe733009bbb7b931f96195c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9459e1eedbe733009bbb7b931f96195c</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:32:01</sys_created_on>
+        <sys_id>1859e1eedbe733009bbb7b931f96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:32:01</sys_updated_on>
+        <value>{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status}}=true</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d059e1eedbe733009bbb7b931f961950^sys_idNOT INd099e5eedbe733009bbb7b931f9619e7"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d099e5eedbe733009bbb7b931f9619e7","name":"plan"}}</plan>
+        <plan_id>d059e1eedbe733009bbb7b931f961950</plan_id>
+        <snapshot>0803f5eadbbf33009bbb7b931f961925</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d099e5eedbe733009bbb7b931f9619e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <trigger display_value="">5099e5eedbe733009bbb7b931f9619e6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ihub_qe_comp_anniversary_notification</internal_name>
+        <label_cache>[{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date","label":"2➛team events Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_ihub_content_team_events","column_name":"joining_date"},{"name":"6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years","label":"2.1➛years","reference_display":"years","type":"string","base_type":"string"},{"name":"6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status","label":"2.1➛status","reference_display":"status","type":"boolean","base_type":"boolean"},{"name":"fc97cba8-78ea-4229-a475-0bfda4a90ef1.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item.team.manager.email","label":"2➛team events Record➛Team➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"5f12e62a-32dc-4f42-a4b4-abc390f53abb.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a57e80e4-f524-4f03-9435-61c3fc27d124.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Table","label":"2➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"c24cc0f3-e446-463c-b6d5-38edbf771963.Records","label":"2➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7037c81e-7de0-4aa3-ae7f-50f2d45e295b.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.birthday","label":"2➛team events Record➛Birthday","reference":"","reference_display":"Birthday","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_ihub_content_team_events","column_name":"birthday"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"44fdb53b-2580-4902-86b0-8257b576c993.Records","label":"1➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Record.team_member.email","label":"1➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"4cd7f3cc-c3dc-4218-a350-0034df0e4549.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"a2b6952d-94a4-4be3-8d09-7c5f370e4bd4.Record","label":"1➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"8c7edd86-3050-460b-a97c-a020763aaab6.item.team.manager.email","label":"2➛team events Record➛Team➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Records","label":"1➛team events Records","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"records","base_type":"records"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Table","label":"1➛team events Table","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"table_name","base_type":"table_name"},{"name":"02617821-aed4-44d4-a82f-026419c12019.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item","label":"2➛team events Record","reference":"x_snc_ihub_content_team_events","reference_display":"team events","type":"reference","base_type":"reference"},{"name":"e8556158-b17e-4f77-bbe7-664ba65de894.variable","label":"2.1➛variable","reference_display":"variable","type":"boolean","base_type":"boolean"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.birthday","label":"2➛team events Record➛Birthday","reference":"","reference_display":"Birthday","type":"string","base_type":"string","parent_table_name":"x_snc_ihub_content_team_events","column_name":"birthday"},{"name":"adf534c3-781d-4f62-acd3-d96dd918e9e2.email","label":"2.1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email","label":"2➛team events Record➛Team member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email","label":"2➛team events Record➛Team➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team","label":"2➛team events Record➛Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_ihub_content_team_events","column_name":"team"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name","label":"2➛team events Record➛Team member➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"8b4a6c3a-d5c4-4abd-89cb-2d639230f798.variable","label":"2.1➛variable","reference_display":"variable","type":"boolean","base_type":"boolean"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.anniversary","label":"2➛team events Record➛Anniversary","reference":"","reference_display":"Anniversary","type":"string","base_type":"string","parent_table_name":"x_snc_ihub_content_team_events","column_name":"anniversary"},{"name":"d88848bc-c93c-4a76-9a63-23baeffa4f0b.email","label":"2.1.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"0442cec2-e6e5-4036-8bda-136a5338bfbc.email","label":"2.2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name","label":"2➛team events Record➛Team member➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <master>true</master>
+        <name>Ihub QE Comp Anniversary Notification</name>
+        <outputs/>
+        <parent_flow display_value="Ihub QE Comp Anniversary Notification">d059e1eedbe733009bbb7b931f961950</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0099e5eedbe733009bbb7b931f9619af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0099e5eedbe733009bbb7b931f9619af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0099e5eedbe733009bbb7b931f9619af"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=0099e5eedbe733009bbb7b931f9619af^sys_idNOT IN0099e5eedbe733009bbb7b931f9619ba,4499e5eedbe733009bbb7b931f9619b5,5499e5eedbe733009bbb7b931f9619bd,9899e5eedbe733009bbb7b931f9619c0,c499e5eedbe733009bbb7b931f9619b2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>0099e5eedbe733009bbb7b931f9619ba</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>02617821-aed4-44d4-a82f-026419c12019</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0099e5eedbe733009bbb7b931f9619ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0099e5eedbe733009bbb7b931f9619ba</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>c499e5eedbe733009bbb7b931f9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>x_snc_ihub_content_team_events</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b20e8bd5dbef3300472ef8231f9619fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>4499e5eedbe733009bbb7b931f9619b5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4499e5eedbe733009bbb7b931f9619b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4499e5eedbe733009bbb7b931f9619b5</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>0499e5eedbe733009bbb7b931f9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>{{02617821-aed4-44d4-a82f-026419c12019.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="isCompAnnualDay">48407829dbe333009bbb7b931f9619aa</action_type>
+        <action_type_parent display_value="isCompAnnualDay">86bb2825dbe333009bbb7b931f9619de</action_type_parent>
+        <comment>check if today is company anniversary day</comment>
+        <compiled_snapshot>48407829dbe333009bbb7b931f9619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>2.1</order>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>5499e5eedbe733009bbb7b931f9619bd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5499e5eedbe733009bbb7b931f9619bd"/>
+    <sys_element_mapping action="delete_multiple" query="id=5499e5eedbe733009bbb7b931f9619bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dateinput</field>
+        <id>5499e5eedbe733009bbb7b931f9619bd</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9099e5eedbe733009bbb7b931f9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48407829dbe333009bbb7b931f9619aa</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>87a87db7-5676-4764-9229-418e9a15027c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9899e5eedbe733009bbb7b931f9619c0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>0442cec2-e6e5-4036-8bda-136a5338bfbc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9899e5eedbe733009bbb7b931f9619c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9899e5eedbe733009bbb7b931f9619c0</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1099e5eedbe733009bbb7b931f9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9899e5eedbe733009bbb7b931f9619c0</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-09-10 09:10:10</sys_created_on>
+        <sys_id>dd142f25dbf333009bbb7b931f961904</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <value/>
+        <variable display_value="">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9899e5eedbe733009bbb7b931f9619c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1899e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Hearty Congratulations&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;2➛team events Record➛Team member➛Name&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;on completing&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;2.5➛years&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;year(s) in ServiceNow. &lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Best wishes for the future.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;Regards,&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;IDC Platform QE Team&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9c99e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>d899e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Congratulations {{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>5499e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dfc230e9dbe333009bbb7b931f9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>c499e5eedbe733009bbb7b931f9619b2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>87a87db7-5676-4764-9229-418e9a15027c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c499e5eedbe733009bbb7b931f9619b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c499e5eedbe733009bbb7b931f9619b2</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>4899e5eedbe733009bbb7b931f9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status}}=true</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0099e5eedbe733009bbb7b931f9619af^sys_idNOT IN1499e5eedbe733009bbb7b931f9619c3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1499e5eedbe733009bbb7b931f9619c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:32</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1499e5eedbe733009bbb7b931f9619c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1499e5eedbe733009bbb7b931f9619c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9899e5eedbe733009bbb7b931f9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>2019-08-31 17:25:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0099e5eedbe733009bbb7b931f9619af^sys_idNOT IN8899e5eedbe733009bbb7b931f9619af"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0099e5eedbe733009bbb7b931f9619af</id>
+        <name>Ihub QE Comp Anniversary Notification</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>8899e5eedbe733009bbb7b931f9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0099e5eedbe733009bbb7b931f9619af^sys_idNOT IN0099e5eedbe733009bbb7b931f9619ba,5499e5eedbe733009bbb7b931f9619bd,9899e5eedbe733009bbb7b931f9619c0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>0099e5eedbe733009bbb7b931f9619ba</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>02617821-aed4-44d4-a82f-026419c12019</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0099e5eedbe733009bbb7b931f9619ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0099e5eedbe733009bbb7b931f9619ba</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>c499e5eedbe733009bbb7b931f9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>x_snc_ihub_content_team_events</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="isCompAnnualDay">48407829dbe333009bbb7b931f9619aa</action_type>
+        <action_type_parent display_value="isCompAnnualDay">86bb2825dbe333009bbb7b931f9619de</action_type_parent>
+        <comment>check if today is company anniversary day</comment>
+        <compiled_snapshot>48407829dbe333009bbb7b931f9619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>2.1</order>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>5499e5eedbe733009bbb7b931f9619bd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5499e5eedbe733009bbb7b931f9619bd"/>
+    <sys_element_mapping action="delete_multiple" query="id=5499e5eedbe733009bbb7b931f9619bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dateinput</field>
+        <id>5499e5eedbe733009bbb7b931f9619bd</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9099e5eedbe733009bbb7b931f9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_48407829dbe333009bbb7b931f9619aa</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.joining_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <order>2.2.1</order>
+        <parent_ui_id>87a87db7-5676-4764-9229-418e9a15027c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9899e5eedbe733009bbb7b931f9619c0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>0442cec2-e6e5-4036-8bda-136a5338bfbc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9899e5eedbe733009bbb7b931f9619c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9899e5eedbe733009bbb7b931f9619c0</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1099e5eedbe733009bbb7b931f9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9899e5eedbe733009bbb7b931f9619c0</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-09-10 09:10:10</sys_created_on>
+        <sys_id>dd142f25dbf333009bbb7b931f961904</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <value/>
+        <variable display_value="">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9899e5eedbe733009bbb7b931f9619c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>1899e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Hearty Congratulations&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.name}}"&gt;2➛team events Record➛Team member➛Name&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;on completing&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillvalue="{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.years}}"&gt;2.5➛years&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;year(s) in ServiceNow. &lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #008080; font-size: 14pt;"&gt;&lt;em&gt;&lt;strong&gt;Best wishes for the future.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;Regards,&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff9900;"&gt;&lt;em&gt;&lt;strong&gt;IDC Platform QE Team&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>9c99e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>d899e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Congratulations {{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.first_name}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>9899e5eedbe733009bbb7b931f9619c0</id>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>5499e5eedbe733009bbb7b931f9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a28005ab-6fd2-4b0d-9570-598f2b078937.item.team_member.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0099e5eedbe733009bbb7b931f9619af^sys_idNOT IN4499e5eedbe733009bbb7b931f9619b5,c499e5eedbe733009bbb7b931f9619b2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b20e8bd5dbef3300472ef8231f9619fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>4499e5eedbe733009bbb7b931f9619b5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4499e5eedbe733009bbb7b931f9619b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4499e5eedbe733009bbb7b931f9619b5</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>0499e5eedbe733009bbb7b931f9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>{{02617821-aed4-44d4-a82f-026419c12019.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dfc230e9dbe333009bbb7b931f9619c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Ihub QE Comp Anniversary Notification">0099e5eedbe733009bbb7b931f9619af</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a28005ab-6fd2-4b0d-9570-598f2b078937</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>c499e5eedbe733009bbb7b931f9619b2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-09-12 11:23:31</sys_updated_on>
+        <ui_id>87a87db7-5676-4764-9229-418e9a15027c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c499e5eedbe733009bbb7b931f9619b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c499e5eedbe733009bbb7b931f9619b2</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-31 16:33:06</sys_created_on>
+        <sys_id>4899e5eedbe733009bbb7b931f9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-31 16:33:06</sys_updated_on>
+        <value>{{6b86ccf1-1cfd-4f3f-9eb1-2bfd5469d26a.status}}=true</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

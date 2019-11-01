@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="instance" max_length="40" name="x_snc_ihub_content_instance" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var instance='https://'+current.instance_name+'.service-now.com';&#10;&#9;// Add your code here&#10;&#9;return instance;  // return the calculated value&#10;&#10;})(current);" label="Instance link" max_length="1024" name="instance_link" read_only="true" type="url" virtual="true"/>
+        <element label="Instance name" max_length="40" name="instance_name" type="string"/>
+    </element>
+</database>

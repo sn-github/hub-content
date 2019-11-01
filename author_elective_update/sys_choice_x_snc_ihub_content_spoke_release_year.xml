@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="release_year" table="x_snc_ihub_content_spoke" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2018</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91d91446dbe80050472ef8231f96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2018</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2019</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>1</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5d91446dbe80050472ef8231f96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2019</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2020</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>2</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55d91446dbe80050472ef8231f96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2020</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2021</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>3</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1d91446dbe80050472ef8231f96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2021</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2022</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>4</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51d91446dbe80050472ef8231f96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2022</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2023</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>5</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddd91446dbe80050472ef8231f96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2023</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2024</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>6</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5dd91446dbe80050472ef8231f961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2024</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2025</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>7</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9d91446dbe80050472ef8231f961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2025</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2026</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>8</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69d91446dbe80050472ef8231f961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2026</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2027</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>9</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5d91446dbe80050472ef8231f961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2027</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2028</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>10</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65d91446dbe80050472ef8231f961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2028</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2029</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>11</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1d91446dbe80050472ef8231f961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2029</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>release_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2030</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>12</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61d91446dbe80050472ef8231f961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+            <value>2030</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>release_year</element>
+            <name>x_snc_ihub_content_spoke</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-18 14:30:34</sys_created_on>
+            <sys_id>54a549a61bf000108fa0dd7cbc4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>release_year</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ihub_content_spoke_release_year</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-18 14:30:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

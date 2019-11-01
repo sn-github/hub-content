@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="qe_end_date" label="QE end date" language="en" table="x_snc_ihub_content_activity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>qe_end_date</element>
+            <help/>
+            <hint/>
+            <label>QE end date</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_activity</name>
+            <plural>QE end dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 03:50:50</sys_created_on>
+            <sys_id>dc6eed7bdbdf33009bbb7b931f96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>QE end date</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_activity_qe_end_date_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 03:50:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

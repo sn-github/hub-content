@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="automation" table="x_snc_ihub_content_spoke" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Started</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:27:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f229eb7db5373009bbb7b931f96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:27:13</sys_updated_on>
+            <value>not_started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automation</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Not Yet Started</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:01:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c4c8e73db5373009bbb7b931f961985</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:27:13</sys_updated_on>
+            <value>not_yet_started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>1</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:01:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c84c8e73db5373009bbb7b931f961983</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:27:13</sys_updated_on>
+            <value>in_progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <sequence>2</sequence>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:21:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79e05e77db5373009bbb7b931f961908</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:27:13</sys_updated_on>
+            <value>complete</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>automation</element>
+            <name>x_snc_ihub_content_spoke</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:01:21</sys_created_on>
+            <sys_id>58a549a61bf000108fa0dd7cbc4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>automation</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ihub_content_spoke_automation</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:01:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

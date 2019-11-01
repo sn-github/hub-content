@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="activity" max_length="40" name="x_snc_ihub_content_activity" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="QE end date" max_length="40" name="qe_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="QE start date" max_length="40" name="qe_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Spoke" max_length="32" name="spoke" reference="x_snc_ihub_content_spoke" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cert Simulation In-progress" value="cert_sim_in_progress"/>
+                <element inactive_on_update="false" label="Dev Complete" value="dev_complete"/>
+                <element inactive_on_update="false" label="Dev In-progress" value="dev_in_progress"/>
+                <element inactive_on_update="false" label="QE Blocked" value="qe_blocked"/>
+                <element inactive_on_update="false" label="QE Complete" value="qe_complete"/>
+                <element inactive_on_update="false" label="QE In-progress" value="qe_in_progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="amber" value="amber"/>
+                <element inactive_on_update="false" label="Green" value="green"/>
+                <element inactive_on_update="false" label="red" value="red"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Submission date" max_length="40" name="submission_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="targeted version" max_length="32" name="targeted_version" reference="x_snc_ihub_content_target" type="reference"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="targeted_version"/>
+        </index>
+        <index name="index3">
+            <element name="spoke"/>
+        </index>
+    </element>
+</database>

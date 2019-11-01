@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="recertify" max_length="40" name="x_snc_ihub_content_recertify" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Certified" max_length="40" name="certified" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Cert Simulation" max_length="40" name="cert_simulation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="QE Validation" max_length="40" name="qe_validation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason" max_length="40" name="reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="True-up" sequence="0" value="true-up"/>
+                <element inactive_on_update="false" label="Patch Release" sequence="1" value="patch release"/>
+                <element inactive_on_update="false" label="Major Release" sequence="2" value="major release"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Release" max_length="32" name="release" reference="x_snc_ihub_content_target" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Spoke" mandatory="true" max_length="32" name="spoke" reference="x_snc_ihub_content_spoke" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not started"/>
+                <element inactive_on_update="false" label="Complete" sequence="1" value="complete"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="2" value="in-progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="spoke"/>
+        </index>
+        <index name="index2">
+            <element name="release"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d804efcedb6000509bbb7b931f96192b" sys_domain="global" table="x_snc_ihub_content_recertify" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1804efcedb6000509bbb7b931f96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_ihub_content_recertify" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">d804efcedb6000509bbb7b931f96192b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">17cae33cdbe73300472ef8231f9619d0</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1404efcedb6000509bbb7b931f96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_ihub_content_recertify" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">d804efcedb6000509bbb7b931f96192b</sys_ui_form>
+            <sys_ui_section caption="Check List" display_value="Check List" name="x_snc_ihub_content_recertify" sys_domain="global" view="Default view">dc04efcedb6000509bbb7b931f961929</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_ihub_content_recertify</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d804efcedb6000509bbb7b931f96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ihub_content_recertify</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d804efcedb6000509bbb7b931f96192b</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:13:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

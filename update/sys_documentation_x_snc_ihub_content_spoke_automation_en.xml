@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="automation" label="Automation" language="en" table="x_snc_ihub_content_spoke">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>automation</element>
+            <help/>
+            <hint/>
+            <label>Automation</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_spoke</name>
+            <plural>Automations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-23 06:00:23</sys_created_on>
+            <sys_id>c60c8a73db5373009bbb7b931f9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Automation</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_spoke_automation_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-23 06:00:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

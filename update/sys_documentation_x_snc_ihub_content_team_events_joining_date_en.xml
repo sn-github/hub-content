@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="joining_date" label="Joining date" language="en" table="x_snc_ihub_content_team_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>joining_date</element>
+            <help/>
+            <hint/>
+            <label>Joining date</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_team_events</name>
+            <plural>Joining dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-28 09:52:28</sys_created_on>
+            <sys_id>ee117869dbe333009bbb7b931f9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Joining date</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_team_events_joining_date_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-28 09:52:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA ihub qe - New Tab">a129f0b3db6733009bbb7b931f961995</canvas_page>
+        <name>Functional</name>
+        <page display_value="PA Functional">2d29f0b3db6733009bbb7b931f961993</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-09-04 10:13:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e529f0b3db6733009bbb7b931f961997</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Functional</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>pa_tabs_e529f0b3db6733009bbb7b931f961997</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-10-17 02:12:12</sys_updated_on>
+    </pa_tabs>
+</record_update>

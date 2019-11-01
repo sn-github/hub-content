@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_ihub_content.instance_user" name="x_snc_ihub_content.instance_user">c47173b0db2b3300472ef8231f9619c4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-08-26 15:57:22</sys_created_on>
+        <sys_id>8871f7b0db2b3300472ef8231f96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c47173b0db2b3300472ef8231f9619c4</sys_name>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8871f7b0db2b3300472ef8231f96191e</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-08-26 15:57:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

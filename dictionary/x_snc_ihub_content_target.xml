@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="target" max_length="40" name="x_snc_ihub_content_target" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Epic" max_length="100" name="epic" type="string"/>
+        <element display="true" label="Release" max_length="100" name="release" type="string"/>
+    </element>
+</database>

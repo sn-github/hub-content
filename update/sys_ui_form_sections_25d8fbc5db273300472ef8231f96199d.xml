@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="25d8fbc5db273300472ef8231f96199d" sys_domain="global" table="x_snc_ihub_content_team_events" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-27 11:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21d8fbc5db273300472ef8231f9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_ihub_content_team_events" name="x_snc_ihub_content_team_events" sys_domain="global" view="Default view">25d8fbc5db273300472ef8231f96199d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ihub_content_team_events" sys_domain="global" view="Default view">92a877c5db273300472ef8231f961925</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-27 11:08:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-27 11:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dd8fbc5db273300472ef8231f9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_ihub_content_team_events" name="x_snc_ihub_content_team_events" sys_domain="global" view="Default view">25d8fbc5db273300472ef8231f96199d</sys_ui_form>
+            <sys_ui_section caption="Message" display_value="Message" name="x_snc_ihub_content_team_events" sys_domain="global" view="Default view">25d8fbc5db273300472ef8231f96199c</sys_ui_section>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-27 11:08:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_ihub_content_team_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-27 11:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25d8fbc5db273300472ef8231f96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ihub_content_team_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_ui_form_sections_25d8fbc5db273300472ef8231f96199d</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-27 11:08:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

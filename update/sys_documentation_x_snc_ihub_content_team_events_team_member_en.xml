@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="team_member" label="Team member" language="en" table="x_snc_ihub_content_team_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>team_member</element>
+            <help/>
+            <hint/>
+            <label>Team member</label>
+            <language>en</language>
+            <name>x_snc_ihub_content_team_events</name>
+            <plural>Team members</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-08-27 11:07:15</sys_created_on>
+            <sys_id>08a8f3c5db273300472ef8231f9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Team member</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_ihub_content_team_events_team_member_en</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-08-27 11:07:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

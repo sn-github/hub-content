@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="team events" max_length="40" name="x_snc_ihub_content_team_events" type="collection">
+        <element label="Anniversary" max_length="40" name="anniversary" type="string"/>
+        <element label="Birthday" max_length="40" name="birthday" type="string"/>
+        <element label="Joining date" max_length="40" name="joining_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Message" max_length="40" name="message" type="multi_small"/>
+        <element label="Promotion" max_length="40" name="promotion" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Team" max_length="32" name="team" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Team member" max_length="32" name="team_member" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="team_member"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

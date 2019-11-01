@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA ihub qe - New Tab">a129f0b3db6733009bbb7b931f961995</grid_canvas>
+        <height>8</height>
+        <portal_widget display_value="Created 2019-10-16 18:53:32">a2f2a421db60cc10472ef8231f961965</portal_widget>
+        <posx>4</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+        <sys_created_on>2019-10-17 01:53:33</sys_created_on>
+        <sys_id>6ef2a421db60cc10472ef8231f96196a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>a129f0b3db6733009bbb7b931f961995</sys_name>
+        <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_6ef2a421db60cc10472ef8231f96196a</sys_update_name>
+        <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+        <sys_updated_on>2019-10-25 17:33:54</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+</record_update>

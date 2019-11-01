@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ihub_content_spoke" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>spoke</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="20f93270db0333006423301b7c9619a7">fcdba786dba000509bbb7b931f96192d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:48:01</sys_created_on>
+            <sys_id>38dba786dba000509bbb7b931f96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:48:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_ihub_content_spoke" element="NULL" name="x_snc_ihub_content_spoke" parent="NULL" relationship="NULL" sys_domain="global" view="20f93270db0333006423301b7c9619a7">fcdba786dba000509bbb7b931f96192d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:48:01</sys_created_on>
+            <sys_id>bcdba786dba000509bbb7b931f96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:48:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_ihub_content_spoke</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>bhargav.swayampakula@snc</sys_created_by>
+            <sys_created_on>2019-10-19 05:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcdba786dba000509bbb7b931f96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ihub_content_spoke</sys_name>
+            <sys_package display_value="ihub content" source="x_snc_ihub_content">8dca69b7dbdf33009bbb7b931f961956</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ihub content">8dca69b7dbdf33009bbb7b931f961956</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_ihub_content_spoke_sys_ref_list</sys_update_name>
+            <sys_updated_by>bhargav.swayampakula@snc</sys_updated_by>
+            <sys_updated_on>2019-10-19 05:48:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">20f93270db0333006423301b7c9619a7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
